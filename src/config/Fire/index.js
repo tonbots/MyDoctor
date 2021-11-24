@@ -1,12 +1,10 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAdXykQdbB-GXnNqUJEXuNh93xdteJtWF0",
   authDomain: "mydoctor-9b286.firebaseapp.com",
+  databaseURL:'https://mydoctor-9b286-default-rtdb.firebaseio.com/',
   projectId: "mydoctor-9b286",
   storageBucket: "mydoctor-9b286.appspot.com",
   messagingSenderId: "467919741078",
